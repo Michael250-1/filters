@@ -26,10 +26,10 @@ function preload(){
     function gotposes(results){
         if(results.length>0){
             console.log(results);
-            noseX=results[0].pose.nose.x-15;
-            noseY=results[0].pose.nose.y-10;
-            console.log("nosex= " + noseX);
-            console.log("nosey= " + noseY);
+            lipX=results[0].pose.nose.x-15;
+            lipY=results[0].pose.nose.y;
+            console.log("lipx= " + lipX);
+            console.log("lipy= " + lipY);
         }
         
     }
